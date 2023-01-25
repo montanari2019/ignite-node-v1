@@ -2,7 +2,7 @@
 //     process.stdout
 //  ) 
 
-import { Readable } from "node:stream"
+import { Readable, Writable } from "node:stream"
 
 class OneToHundredStream extends Readable{
    index =1
@@ -14,7 +14,7 @@ class OneToHundredStream extends Readable{
          if(i > 100){
             this.push(null)
          }else{
-            const buf = Buffer.from(String(`${i} - `))
+            const buf = Buffer.from(String(1))
             this.push(buf)
          }
 
@@ -22,5 +22,12 @@ class OneToHundredStream extends Readable{
    }
 }
 
+class MultiplayByTenStream extends Writable{
+   _write(chunk, enconding, callback){
+      console.log(Number(chunk.toString()) * 10)
+      callback()
+   }
+}
+
 new OneToHundredStream()
-   .pipe(process.stdout)
+   .pipe(new MultiplayByTenStream())
