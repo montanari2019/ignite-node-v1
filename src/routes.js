@@ -8,6 +8,21 @@ export const routes = [
         method: "GET",
         path: buildRoutePatch("/users"),
         handler: (req, res) => {
+            const { search }  = req.query
+            const users = database.select("users",{
+                name: search,
+                email: search,
+            })
+            return res.end(JSON.stringify(users))
+        },
+
+    },
+
+    {
+        method: "GET",
+        path: buildRoutePatch("/users/all"),
+        handler: (req, res) => {
+            const { search }  = req.query
             const users = database.select("users")
             return res.end(JSON.stringify(users))
         },
