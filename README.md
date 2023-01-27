@@ -37,11 +37,8 @@ Para banco de dados foi salvo na própria aplicação com um arquivo de JSON, po
 # Tecnologias
 
 <ul>
-   <li>
-    <!-- <a target="_blank" href="https://create-react-app.dev/">React Create App</a> -->
-
-   </li>
-      <li>
+  
+ <li>
       <a target="_blank" href="https://www.npmjs.com/">Npm</a>
     </li>
    
