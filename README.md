@@ -1,6 +1,9 @@
 
-<div align="center">
-    <!-- <img max-width="320px"  src="./public/coffe-delivery-logo.svg" /> -->
+<div align="center" >
+    <img width="220" padding="10px" src="./src/assets/nodejs-logo-vector.svg" />
+    <br/>
+    <br/>
+    <img width="80"  src="./src/assets/ignite-logo.svg" />
 </div>
 <h1 align="center" >Ignite Node</h1 >
 
@@ -9,7 +12,7 @@
 <ul>
    <li><a href="#tabela">Tabela de Conteúdo</a></li>
    <li><a href="#sobre">Sobre</a></li>
-   <li><a href="#demonstração">Demonstração</a></li>
+   <!-- <li><a href="#demonstração">Demonstração</a></li> -->
    <li><a href="#tecnologias">Tecnologias</a></li>
    <li><a href="#requisitos">Requisitos</a></li>
    <li><a href="#licença">Licença</a></li>
@@ -21,28 +24,15 @@
 
 # Sobre
 
-<!-- <p dir="auto">Projeto desenvolvido junto ao curso ignite da <a target="_blank" href="https://www.rocketseat.com.br/">Rocketseat💜</a>, que aplicamos conceitos de styled Component, avançando no react aplicando na prática modelos como UseEffect, UseReduce,entre outros como roteamento ultilizando o Outlet disponível a partir da versão v6 do react router dom.
-
-A aplicação consiste em um carrinho de comprar de uma cafeteria fictísia, onde o usuário deve escolher ao menos um item, e registrar seu endereço e forma de pagamento, finalizando então sua compra conforme demostração abaixo.
-
-A aplicação também foi desenvolvida com responsividade, com o intuíto de melhorar a experiência do usuário mobile. -->
-<p>Aplicação em contrução ......</p>
+<p dir="auto">Projeto desenvolvido junto ao curso ignite da <a target="_blank" href="https://www.rocketseat.com.br/">Rocketseat💜</a>, aplicamos conhecimento basicos de Node.js.
+Primeiramente criando uma api "na mão" ou seja sem ultilização de framworks como express para nos ajudar, apenas o próprio node.
+Para banco de dados foi salvo na própria aplicação com um arquivo de JSON, pois aqui o obejtivo era ser o mais minimalista possível.
+<!-- <p>Aplicação em contrução ......</p> -->
 
 </br>
 <p> <a target="_blank" href="https://github.com/montanari2019/">Click Aqui para acessar o reposítório da aplicação</a> </p>
 
-# Demonstração
 
-<p>Desktop</p>
-
-<!-- <img style="" src="./src/assets/ReadmeImages/coffe_delivery_desktop.gif" /> -->
-
-</br>
-
-<p>Mobile</p>
-<!-- <img style="" src="./src/assets/ReadmeImages/coffe_delivery_mobile.gif" /> -->
-
-</br>
 
 # Tecnologias
 
@@ -54,16 +44,9 @@ A aplicação também foi desenvolvida com responsividade, com o intuíto de mel
       <li>
       <a target="_blank" href="https://www.npmjs.com/">Npm</a>
     </li>
+   
    <li>
-        <!-- <a  target="_blank"href="https://styled-components.com/">Styled Components</a> -->
-
-   </li>
-   <li>
-        <!-- <a  target="_blank"href="https://mui.com/">Mateiral UI</a> -->
-
-   </li>
-   <li>
-        <a  target="_blank"href="https://www.typescriptlang.org/">TypeScript</a>
+        <a  target="_blank"href="https://nodejs.org/en/">Node.JS</a>
 
    </li>
 
@@ -81,10 +64,10 @@ A aplicação também foi desenvolvida com responsividade, com o intuíto de mel
  <br/>
 
       #clone este repositório
-      $ git clone <https://github.com/montanari2019/coffe-delivery>
+      $ git clone <https://github.com/montanari2019/ignite-node-v1>
 
       # Acesse a pasta do projeto no terminal/cmd
-      $ cd coffe-delivery
+      $ cd ignite-node-v1
 
       # Instale as dependências com o comando
       $ npm install
@@ -92,7 +75,7 @@ A aplicação também foi desenvolvida com responsividade, com o intuíto de mel
       # Execute a aplicação em modo de desenvolvimento
       $ npm run dev
 
-      # Servidor ira executar na porta indicada - acesse <http://localhost: porta indiciada/>
+      # Servidor ira executar na porta indicada - acesse <http://localhost:3333/>
 
 </ul>
 
